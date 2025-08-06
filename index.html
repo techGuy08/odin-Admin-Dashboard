@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container grid-row top-row">
+      <div class="grid-col sidebar">
+        <div class="brand-wrapper">
+          <a href="#" class="brand-link">
+            <img
+              src="./assets/img/icons/view-dashboard.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Dashboard
+          </a>
+        </div>
+        <nav class="navbar1 nav">
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/home.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Home</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/card-account-details-outline.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Profile</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/message-reply.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Messages</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/clock-time-three.svg"
+              alt="image"
+              class="icon-img"
+            />
+            History</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/note-multiple.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Tasks</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/account-group.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Communities</a
+          >
+        </nav>
+
+        <nav class="navbar2 nav">
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/cog.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Settings</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/file-question.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Support</a
+          >
+          <a href="#" class="nav-link">
+            <img
+              src="./assets/img/icons/shield-check.svg"
+              alt="image"
+              class="icon-img"
+            />
+            Privacy</a
+          >
+        </nav>
+      </div>
+      <div class="grid-col main-content">
+        <header class="header">
+          <div class="header-top">
+            <div class="grid-row">
+              <div class="grid-col form-search-wrapper">
+                <div class="search-form-content">
+                  <form action="#" method="get" class="search-form">
+                    <div class="form-group">
+                      <input type="text" class="form-control" />
+                    </div>
+                    <div class="btn-wrapper">
+                      <button type="submit" class="btn btn-search">
+                        <img
+                          src="./assets/img/icons/magnify.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="grid-col profile-controls grid-row">
+                <div class="grid-col notify-wrapper">
+                  <button class="btn btn-notify">
+                    <img
+                      src="./assets/img/icons/bell-ring-outline.svg"
+                      alt="image"
+                      class="icon-img"
+                    />
+                  </button>
+                </div>
+                <a href="#" class="profile-btn">
+                  <img
+                    src="https://avatar.iran.liara.run/public/9"
+                    alt="image"
+                    class="profile-img"
+                  />
+                  <span class="profile-name">Morgan Oakley</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom grid-row">
+            <div class="grid-col profile-info-card">
+              <img
+                src="https://avatar.iran.liara.run/public/9"
+                alt="image"
+                class="profile-img"
+              />
+              <div class="profile-info-content">
+                <p>Hi! <b>there</b></p>
+                <h4>
+                  <span class="profile-name">Morgan Oakley</span> (<span
+                    class="profile-username"
+                    >@morgan</span
+                  >)
+                </h4>
+              </div>
+            </div>
+            <div class="grid-col header-btn-group">
+              <button class="btn">New</button>
+              <button class="btn">Upload</button>
+              <button class="btn">Share</button>
+            </div>
+          </div>
+        </header>
+        <section class="section-body-content">
+          <div class="grid-row">
+            <div class="grid-col col-left">
+              <div class="projects-wrapper">
+                <h3>Your Projects</h3>
+                <div class="projects-cards-wrapper">
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Super cool project</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Less cool project</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Impossible App</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Easy App</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Ad Blocker</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="projects-item card">
+                    <div class="item-text">
+                      <h5>Editor App</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Itaque molestiae dolorem maxime beatae ut iste
+                      </p>
+                    </div>
+                    <div class="item-footer">
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/star-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/eye-plus-outline.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                      <button class="btn projects-btn">
+                        <img
+                          src="./assets/img/icons/source-branch.svg"
+                          alt="image"
+                          class="icon-img"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-col col-right">
+              <div class="announcements-wrapper">
+                <h3>Announcements</h3>
+                <div class="announcements-content">
+                  <div class="announce-item">
+                    <h5>Site Maintenance</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Similique itaque earum fugiat iste blanditiis...
+                    </p>
+                  </div>
+                  <div class="announce-item">
+                    <h5>Community Share Day</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Similique itaque earum fugiat iste blanditiis...
+                    </p>
+                  </div>
+                  <div class="announce-item">
+                    <h5>Upload Privacy Policy</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Similique itaque earum fugiat iste blanditiis...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="trending-wrapper">
+                <h3>Trending</h3>
+                <div class="trending-content">
+                  <div class="trending-item">
+                    <img
+                      src="https://avatar.iran.liara.run/public/33"
+                      alt="image"
+                      class="profile-img"
+                    />
+
+                    <div class="item-text">
+                      <h5>@tegan</h5>
+                      <p>World Peace Builder</p>
+                    </div>
+                  </div>
+                  <div class="trending-item">
+                    <img
+                      src="https://avatar.iran.liara.run/public/48"
+                      alt="image"
+                      class="profile-img"
+                    />
+
+                    <div class="item-text">
+                      <h5>@morgan</h5>
+                      <p>Super Cool Project</p>
+                    </div>
+                  </div>
+                  <div class="trending-item">
+                    <img
+                      src="https://avatar.iran.liara.run/public/10"
+                      alt="image"
+                      class="profile-img"
+                    />
+
+                    <div class="item-text">
+                      <h5>@kendall</h5>
+                      <p>Life Changing App</p>
+                    </div>
+                  </div>
+                  <div class="trending-item">
+                    <img
+                      src="https://avatar.iran.liara.run/public/13"
+                      alt="image"
+                      class="profile-img"
+                    />
+
+                    <div class="item-text">
+                      <h5>@alex</h5>
+                      <p>No Traffic Maker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
