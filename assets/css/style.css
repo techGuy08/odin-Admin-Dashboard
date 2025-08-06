@@ -91,12 +91,15 @@ input.form-control {
   background: #e2e8f0;
   border: 0;
   font-size: 2rem;
-  min-width: calc(100% - 5rem);
+  width:100%;
   padding: 0.8rem 3rem;
   border-radius: 10rem;
   outline: none;
 }
-
+form.search-form
+.form-group{
+  min-width: calc(100% - 5rem);
+}
 form.search-form {
   display: flex;
   flex-direction: row-reverse;
